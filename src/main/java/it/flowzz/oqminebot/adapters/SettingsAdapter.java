@@ -13,7 +13,6 @@ public class SettingsAdapter extends PacketAdapter {
     @Override
     public void onPacketReceiving(PacketEvent event) {
         int skinMask = event.getPacket().getIntegers().read(1);
-        System.out.println("SkinMask -> " + skinMask);
         /*
         OQMineBot usually doesn't send skinmask bytes
 
