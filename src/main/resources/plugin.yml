@@ -1,0 +1,6 @@
+name: OQMineBot
+version: 1.0
+main: it.flowzz.oqminebot.Main
+author: _FlowZz_
+depend: [ProtocolLib]
+description: Stop OQMineBot.
